@@ -1,0 +1,1057 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.22.0" title="Shotcut version 23.11.29" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer8" in="00:00:00.000" out="00:00:14.040">
+    <property name="length">00:00:14.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.1:./02.wav</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="warp_speed">1.1</property>
+    <property name="warp_resource">./02.wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">dummy_hash</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">02.wav (1.1x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="00:00:25.200">
+    <property name="length">00:00:25.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.05:./03.wav</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="warp_speed">1.05</property>
+    <property name="warp_resource">./03.wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">dummy_hash</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">03.wav (1.05x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <chain id="chain3" out="00:00:01.560">
+    <property name="length">0:00:01.591293</property>
+    <property name="eof">pause</property>
+    <property name="resource">./04.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-07-20T13:39:19</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dummy_hash</property>
+  </chain>
+  <chain id="chain4" out="00:00:01.720">
+    <property name="length">0:00:01.753832</property>
+    <property name="eof">pause</property>
+    <property name="resource">./05.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-07-20T13:39:19</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dummy_hash</property>
+  </chain>
+  <producer id="producer10" in="00:00:00.000" out="00:00:26.120">
+    <property name="length">00:00:26.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.05:./06.wav</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="warp_speed">1.05</property>
+    <property name="warp_resource">./06.wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">dummy_hash</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">06.wav (1.05x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="00:00:23.520">
+    <property name="length">00:00:23.560</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.05:./07.wav</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="warp_speed">1.05</property>
+    <property name="warp_resource">./07.wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">dummy_hash</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">07.wav (1.05x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:00:21.120">
+    <property name="length">00:00:21.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.05:08.wav</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="warp_speed">1.05</property>
+    <property name="warp_resource">08.wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">63f15165c431b21e61b3288ed369e3b0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">08.wav (1.05x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <chain id="chain5" out="00:00:13.920">
+    <property name="length">00:00:13.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">081.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-07-24T14:28:48</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dffe8a578697b1a552aa8f9374b8940d</property>
+    <property name="shotcut:caption">081.wav</property>
+  </chain>
+  <producer id="producer2" in="00:00:00.000" out="00:00:17.560">
+    <property name="length">00:00:17.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.05:09.wav</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="warp_speed">1.05</property>
+    <property name="warp_resource">09.wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">3e18b88d9ff20f22a57b4867bddc7f8f</property>
+    <property name="shotcut:caption">09.wav (1.05x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="00:00:17.680">
+    <property name="length">00:00:17.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.05:09.wav</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="warp_speed">1.05</property>
+    <property name="warp_resource">09.wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">3e18b88d9ff20f22a57b4867bddc7f8f</property>
+    <property name="shotcut:caption">09.wav (1.05x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor0" in="00:00:00.000" out="00:00:00.080">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer2" in="00:00:17.600" out="00:00:17.680"/>
+    <track producer="producer3" in="00:00:00.000" out="00:00:00.080"/>
+    <transition id="transition0" out="00:00:00.080">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.080">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <chain id="chain1" out="00:00:10.000">
+    <property name="length">00:00:10.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">091.wav</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2024-07-24T19:33:04</property>
+    <property name="astream">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b2756bdd3ba16e52dac654b374864821</property>
+    <property name="shotcut:caption">091.wav</property>
+  </chain>
+  <tractor id="tractor1" in="00:00:00.000" out="00:00:00.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer3" in="00:00:17.680" out="00:00:17.680"/>
+    <track producer="chain1" in="00:00:00.000" out="00:00:00.000"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer4" in="00:00:00.000" out="00:00:21.840">
+    <property name="length">00:00:21.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.05:10.wav</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="warp_speed">1.05</property>
+    <property name="warp_resource">10.wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">3867c0234069633783349bfdb84e9b9c</property>
+    <property name="shotcut:caption">10.wav (1.05x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:00:12.800">
+    <property name="length">00:00:12.840</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.05:11.wav</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">s16</property>
+    <property name="meta.media.0.codec.sample_rate">22050</property>
+    <property name="meta.media.0.codec.channels">1</property>
+    <property name="meta.media.0.codec.name">pcm_s16le</property>
+    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+    <property name="meta.media.0.codec.bit_rate">352800</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="warp_speed">1.05</property>
+    <property name="warp_resource">11.wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">ac2e460e889b12b85d01e844b6b59947</property>
+    <property name="shotcut:caption">11.wav (1.05x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor2" in="00:00:00.000" out="00:00:00.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:00:21.840" out="00:00:21.840"/>
+    <track producer="producer5" in="00:00:00.000" out="00:00:00.000"/>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <playlist id="main_bin">
+    <property name="shotcut:name">V1</property>
+    <property name="xml_retain">1</property>
+    <blank length="00:00:04.040"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:14.040"/>
+    <blank length="00:00:01.400"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:25.200"/>
+    <blank length="00:00:01.280"/>
+    <entry producer="chain3" in="00:00:00.000" out="00:00:01.560"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:00:01.680"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:26.120"/>
+    <blank length="00:00:01.320"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:23.520"/>
+    <blank length="00:00:01.200"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:21.120"/>
+    <blank length="00:00:01.040"/>
+    <entry producer="chain5" in="00:00:00.000" out="00:00:13.920"/>
+    <blank length="00:00:00.680"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="producer3" in="00:00:00.120" out="00:00:17.640"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="chain1" in="00:00:00.040" out="00:00:10.000"/>
+    <blank length="00:00:00.880"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:21.800"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="producer5" in="00:00:00.040" out="00:00:12.800"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:03:21.880">
+    <property name="length">00:03:21.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:03:21.880"/>
+  </playlist>
+  <producer id="producerlogo1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">/Users/Bobbi/Documents/GitHub/faxt/prasso/prasso_api/public/images/prasso_logo-1024.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1024</property>
+    <property name="meta.media.height">1024</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-18T14:56:19</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:caption">prasso_logo-1024.png</property>
+    <property name="shotcut:hash">f0aa7bcb7c64a613b88cd81d219beb8d</property>
+    <property name="ignore_points">0</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer22" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Introduction to Prasso.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-23T13:52:57</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">3faa0fc31b068d37d68954abf78e00e3</property>
+    <property name="shotcut:caption">Introduction to Prasso.png</property>
+  </producer>
+  <tractor id="tractor3" in="00:00:00.000" out="00:00:01.880">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producerlogo1" in="00:00:02.120" out="00:00:04.000"/>
+    <track producer="producer22" in="00:00:00.000" out="00:00:01.880"/>
+    <transition id="transition6" out="00:00:01.880">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition7" out="00:00:01.880">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer23" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">FrameworkDescription.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-23T14:18:11</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7281f8daff28bdde30a2bf728af1608d</property>
+    <property name="shotcut:caption">FrameworkDescription.png</property>
+  </producer>
+  <tractor id="tractor4" in="00:00:00.000" out="00:00:01.360">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer22" in="00:00:16.080" out="00:00:17.440"/>
+    <track producer="producer23" in="00:00:00.840" out="00:00:02.200"/>
+    <transition id="transition8" out="00:00:01.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition9" out="00:00:01.360">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer24" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T16:37:38</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6ab4f96f7c0d99c9ce8e3821aabd7f17</property>
+    <property name="shotcut:caption">page3.png</property>
+  </producer>
+  <tractor id="tractor5" in="00:00:00.000" out="00:00:01.240">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer23" in="00:00:27.480" out="00:00:28.720"/>
+    <track producer="producer24" in="00:00:02.120" out="00:00:03.360"/>
+    <transition id="transition10" out="00:00:01.240">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition11" out="00:00:01.240">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer25" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T16:37:38</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b30ee8d285f4ed4376ea81dc9ddf7430</property>
+    <property name="shotcut:caption">page4.png</property>
+  </producer>
+  <tractor id="tractor6" in="00:00:00.000" out="00:00:01.160">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer24" in="00:00:19.080" out="00:00:20.240"/>
+    <track producer="producer25" in="00:00:02.800" out="00:00:03.960"/>
+    <transition id="transition12" out="00:00:01.160">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition13" out="00:00:01.160">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer26" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page5.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T17:20:46</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7036674ae3b57b29469f9c34d049e27b</property>
+    <property name="shotcut:caption">page5.png</property>
+  </producer>
+  <tractor id="tractor7" in="00:00:00.000" out="00:00:01.080">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer25" in="00:00:16.480" out="00:00:17.560"/>
+    <track producer="producer26" in="00:00:01.040" out="00:00:02.120"/>
+    <transition id="transition14" out="00:00:01.080">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition15" out="00:00:01.080">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer27" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page6.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T17:20:46</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">d00c225d44e238c18fee0cac0a395fff</property>
+    <property name="shotcut:caption">page6.png</property>
+  </producer>
+  <tractor id="tractor8" in="00:00:00.000" out="00:00:00.760">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer26" in="00:00:16.720" out="00:00:17.480"/>
+    <track producer="producer27" in="00:00:06.440" out="00:00:07.200"/>
+    <transition id="transition16" out="00:00:00.760">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition17" out="00:00:00.760">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer28" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page7.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T17:56:04</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">caff86d59d2a6d74eedd5df523937758</property>
+    <property name="shotcut:caption">page7.png</property>
+  </producer>
+  <tractor id="tractor9" in="00:00:00.000" out="00:00:00.920">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer27" in="00:00:15.960" out="00:00:16.880"/>
+    <track producer="producer28" in="00:00:01.320" out="00:00:02.240"/>
+    <transition id="transition18" out="00:00:00.920">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition19" out="00:00:00.920">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer29" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page8.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T17:56:04</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">bbda0343043971403782c6ca7ac35096</property>
+    <property name="shotcut:caption">page8.png</property>
+  </producer>
+  <tractor id="tractor10" in="00:00:00.000" out="00:00:01.040">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer28" in="00:00:23.480" out="00:00:24.520"/>
+    <track producer="producer29" in="00:00:04.640" out="00:00:05.680"/>
+    <transition id="transition20" out="00:00:01.040">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition21" out="00:00:01.040">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer30" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page9.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T18:43:18</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">916113ab137373566572a44569ceb734</property>
+    <property name="shotcut:caption">page9.png</property>
+  </producer>
+  <tractor id="tractor11" in="00:00:00.000" out="00:00:00.640">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer29" in="00:00:19.680" out="00:00:20.320"/>
+    <track producer="producer30" in="00:00:00.000" out="00:00:00.640"/>
+    <transition id="transition22" out="00:00:00.640">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition23" out="00:00:00.640">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer31" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page10.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T18:43:18</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">ddb24ac44a698a96cf4a3bc1adc907a5</property>
+    <property name="shotcut:caption">page10.png</property>
+  </producer>
+  <tractor id="tractor12" in="00:00:00.000" out="00:00:01.200">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer30" in="00:00:12.680" out="00:00:13.880"/>
+    <track producer="producer31" in="00:00:03.080" out="00:00:04.280"/>
+    <transition id="transition24" out="00:00:01.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition25" out="00:00:01.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer32" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page11.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T15:03:52</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">c50b3253ce235a7ee4449226595be50c</property>
+    <property name="shotcut:caption">page11.png</property>
+  </producer>
+  <tractor id="tractor13" in="00:00:00.000" out="00:00:00.920">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer31" in="00:00:17.520" out="00:00:18.440"/>
+    <track producer="producer32" in="00:00:00.040" out="00:00:00.960"/>
+    <transition id="transition26" out="00:00:00.920">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition27" out="00:00:00.920">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer33" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page12.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T15:03:52</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">556d430ce0b832f34c81c0b524ad5dc7</property>
+    <property name="shotcut:caption">page12.png</property>
+  </producer>
+  <tractor id="tractor14" in="00:00:00.000" out="00:00:00.600">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer32" in="00:00:16.920" out="00:00:17.520"/>
+    <track producer="producer33" in="00:00:04.560" out="00:00:05.160"/>
+    <transition id="transition28" out="00:00:00.600">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition29" out="00:00:00.600">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer34" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">page13.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2024-07-24T19:04:44</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2a5ff308361b48013ea41789b093fba4</property>
+    <property name="shotcut:caption">page13.png</property>
+  </producer>
+  <tractor id="tractor15" in="00:00:00.000" out="00:00:00.680">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer33" in="00:00:09.760" out="00:00:10.440"/>
+    <track producer="producer34" in="00:00:00.000" out="00:00:00.680"/>
+    <transition id="transition30" out="00:00:00.680">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="resource">%luma03.pgm</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+      <property name="progressive">1</property>
+      <property name="invert">0</property>
+      <property name="softness">0.2</property>
+    </transition>
+    <transition id="transition31" out="00:00:00.680">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="producerlogo1" in="00:00:00.000" out="00:00:02.080"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:01.880"/>
+    <entry producer="producer22" in="00:00:01.920" out="00:00:16.040"/>
+    <entry producer="tractor4" in="00:00:00.000" out="00:00:01.360"/>
+    <entry producer="producer23" in="00:00:02.240" out="00:00:27.440"/>
+    <entry producer="tractor5" in="00:00:00.000" out="00:00:01.240"/>
+    <entry producer="producer24" in="00:00:03.400" out="00:00:19.040"/>
+    <entry producer="tractor6" in="00:00:00.000" out="00:00:01.160"/>
+    <entry producer="producer25" in="00:00:04.000" out="00:00:16.440"/>
+    <entry producer="tractor7" in="00:00:00.000" out="00:00:01.080"/>
+    <entry producer="producer26" in="00:00:02.160" out="00:00:16.680"/>
+    <entry producer="tractor8" in="00:00:00.000" out="00:00:00.760"/>
+    <entry producer="producer27" in="00:00:07.240" out="00:00:15.920"/>
+    <entry producer="tractor9" in="00:00:00.000" out="00:00:00.920"/>
+    <entry producer="producer28" in="00:00:02.280" out="00:00:23.440"/>
+    <entry producer="tractor10" in="00:00:00.000" out="00:00:01.040"/>
+    <entry producer="producer29" in="00:00:05.720" out="00:00:19.640"/>
+    <entry producer="tractor11" in="00:00:00.000" out="00:00:00.640"/>
+    <entry producer="producer30" in="00:00:00.680" out="00:00:12.640"/>
+    <entry producer="tractor12" in="00:00:00.000" out="00:00:01.200"/>
+    <entry producer="producer31" in="00:00:04.320" out="00:00:18.520"/>
+    <entry producer="tractor13" in="00:00:00.000" out="00:00:00.920"/>
+    <entry producer="producer32" in="00:00:01.000" out="00:00:16.880"/>
+    <entry producer="tractor14" in="00:00:00.000" out="00:00:00.600"/>
+    <entry producer="producer33" in="00:00:05.200" out="00:00:09.720"/>
+    <entry producer="tractor15" in="00:00:00.000" out="00:00:00.680"/>
+    <entry producer="producer34" in="00:00:00.720" out="00:00:13.760"/>
+  </playlist>
+  <tractor id="tractor16" title="Shotcut version 23.11.29" in="00:00:00.000" out="00:03:21.880">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:skipConvert">0</property>
+    <properties name="shotcut:markers">
+      <properties name="0">
+        <property name="text">Marker 1</property>
+        <property name="start">00:02:06.000</property>
+        <property name="end">00:02:06.000</property>
+        <property name="color">#008000</property>
+      </properties>
+    </properties>
+    <property name="shotcut:trackHeight">10</property>
+    <track producer="background"/>
+    <track producer="main_bin"/>
+    <track producer="playlist1"/>
+    <transition id="transition34">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition35">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="1">normal</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
